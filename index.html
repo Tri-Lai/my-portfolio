@@ -6,6 +6,7 @@
     <title>My Portfolio</title>
 
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/profile.css">
     <link rel="stylesheet" href="./styles/media-queries.css">
 </head>
 <body>
@@ -58,6 +59,52 @@
                 </div>
             </div>
         </nav>
+
+        <!-- PROFILE -->
+
+        <div class="profile">
+            <img class="profile__avatar" src="./assets/images/profile-avatar.jpeg" alt="profile avatar">
+
+            <div class="profile__description">
+                <p class="welcoming-text">Hi all,</p>
+                <h1 class="author-name">Tri Lai</h1>
+                <p class="major">Software Engineer</p>
+                
+                <div class="btn__container">
+                    <button 
+                    class="btn btn--color-2" 
+                    onclick="window.open('./assets/documents/Mobile-developer-resume.pdf')">
+                        Mobile developer resume
+                    </button>
+
+                    <button 
+                    class="btn btn--color-2" 
+                    onclick="window.open('./assets/documents/Web-developer-resume.pdf')">
+                       Web developer resume
+                    </button>
+
+                    <button 
+                    class="btn btn--color-1" 
+                    onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+                </div>
+
+                <div class="socials__container">
+                    <img 
+                    src="./assets/images/linkedin.png" 
+                    alt="linkedin image"
+                    class="socials__icon"
+                    onclick="location.href='https://www.linkedin.com/in/trilai/'">
+                    
+                    <img 
+                    src="./assets/images/github.png" 
+                    alt="linkedin image"
+                    class="socials__icon"
+                    onclick="location.href='https://github.com/Tri-Lai'">
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>
