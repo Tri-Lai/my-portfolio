@@ -19,10 +19,18 @@ html {
     --primary-color: #ee4b2b;
     --primary-color-rgba: rgb(238, 75, 43, 0.9);
     --gold-star-color: #FFCE3E;
-
+    --blue-color: #1987ff;
     --navbar-height: 32px;
     --header-height: 120px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
+}
+
+.section {
+    margin: 100px 0;
+}
+
+.section-header {
+    margin-bottom: 40px;
 }
 
 /* TRANSITION */
