@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/profile.css">
+    <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/media-queries.css">
 </head>
 <body>
@@ -63,13 +64,16 @@
         <!-- PROFILE -->
 
         <div class="profile">
-            <img class="profile__avatar" src="./assets/images/profile-avatar.jpeg" alt="profile avatar">
+            <!-- Avatar -->
+            <img class="profile__avatar" src="./assets/images/profile-avatar.png" alt="profile avatar">
 
+            <!-- Bio -->
             <div class="profile__description">
                 <p class="welcoming-text">Hi all,</p>
                 <h1 class="author-name">Tri Lai</h1>
                 <p class="major">Software Engineer</p>
                 
+                <!-- Resume download -->
                 <div class="btn__container">
                     <button 
                     class="btn btn--color-2" 
@@ -90,6 +94,7 @@
                     </button>
                 </div>
 
+                <!-- Social links -->
                 <div class="socials__container">
                     <img 
                     src="./assets/images/linkedin.png" 
@@ -103,6 +108,55 @@
                     class="socials__icon"
                     onclick="location.href='https://github.com/Tri-Lai'">
                 </div>
+            </div>
+        </div>
+
+        <!-- ABOUT ME -->
+
+        <div class="about">
+            <div class="section-header">
+                <p class="section-header__label">Get to know more</p>
+                <h1 class="section-header__title">About Me</h1>
+            </div>
+
+            <div class="about__container">
+                <img class="about__image" src="./assets/images/profile-avatar.png" alt="About image">
+
+                <div class="about__bio-container">
+                    <div class="about__bio-list">
+                        <div class="about__bio-item">
+                            <img src="./assets/images/education.png" alt="education icon" class="bio-icon">
+        
+                            <h3>Current</h3>
+                            <p>School of Science, Engineering and Technology <br> Final year student </p>
+                        </div>
+
+                        <div class="about__bio-item">
+                            <img src="./assets/images/education.png" alt="education icon" class="bio-icon">
+        
+                            <h3>Education</h3>
+                            <p>RMIT University Vietnam <br> Bachelor of Software Engineering (Honours)</p>
+                        </div>
+                    </div> 
+                    
+                    <p class="about__desc">I am an adaptable and motivated individual, capable of immersing myself in a diverse working environment and
+                        always willing to create high work productivity. My objective is to look for an opportunity in the field of software
+                        engineering where I can apply my expertise in developing web applications using various technologies such as
+                        Django, Flask, Express framework, or Spring.</p>
+                </div>
+                
+                <img 
+                src="./assets/images/arrow.png" 
+                alt="Down arrow icon" 
+                class="nav-icon"
+                onclick="location.href('#skills')">
+            </div>
+        </div>
+        
+        <div class="skills">
+            <div class="section-header">
+                <p class="section-header__label">Get to know more</p>
+                <h1 class="section-header__title">About Me</h1>
             </div>
         </div>
     </div>

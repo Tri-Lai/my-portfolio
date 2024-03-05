@@ -1,0 +1,93 @@
+.about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.section-header__label {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--neutral-text-color);
+}
+
+.section-header__title {
+    font-size: 5rem;
+    margin: 10px 0;
+}
+
+.about__container {
+    display: flex;
+    height: 80%;
+    padding: 0 16%;
+    gap: 40px;
+}
+
+.about__bio-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.about__bio-list {
+    display: flex;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.about__bio-item {
+    flex: 1;
+    padding: 15px 12px;
+    font-size: 1.4rem;
+    background-color: var(--white-color);
+    border-radius: 20px;
+    border: var(--text-color) 1px solid;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.about__bio-item p {
+    color: var(--neutral-text-color);
+}
+
+.bio-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.about__image {
+    border-radius: 12px;
+    width: 300px;
+    height: 300px;
+    margin: auto 0;
+}
+
+.about__desc {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    line-height: 1.4;
+}
+
+.nav-icon {
+    display: inline-block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 50px;
+    bottom: -50px;
+    border-radius: 50%;
+    transition: background-color 0.25s;
+}
+
+.nav-icon:hover {
+    cursor: pointer;
+    background-color: red;
+}
