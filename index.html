@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./styles/profile.css">
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/skills.css">
+    <link rel="stylesheet" href="./styles/projects.css">
     <link rel="stylesheet" href="./styles/media-queries.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -24,19 +25,19 @@
             <div class="desktop-nav__list-container">
                 <ul class="desktop-nav__list">
                     <li class="desktop-nav__item">
-                        <a href="#about">About me</a>
+                        <a href="#section-about">About me</a>
                     </li>
 
                     <li class="desktop-nav__item">
-                        <a href="#experience">Experience</a>
+                        <a href="#section-skills">Skills</a>
                     </li>
 
                     <li class="desktop-nav__item">
-                        <a href="#projects">Projects</a>
+                        <a href="#section-projects">Projects</a>
                     </li>
 
                     <li class="desktop-nav__item">
-                        <a href="#contact">Contacts</a>
+                        <a href="#section-contacts">Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -331,6 +332,68 @@
                 alt="Down arrow icon" 
                 class="nav-icon"
                 onclick="location.href('#section-projects')">
+            </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div id="section-projects" class="projects section">
+            <!-- Title -->
+            <div class="section-header">
+                <p class="section-header__label">Here Are My</p>
+                <h1 class="section-header__title">Projects</h1>
+            </div>
+
+            <!-- Project container -->
+            <div class="project__container">
+                <div class="project project--color">
+                    <img src="./assets/images/project-grosana.png" alt="Project 1" class="project__image">
+
+                    <h2 class="project__title">Project One</h2>
+                    <div class="project__links">
+                        <button class="btn btn--color-2 project__btn"
+                        onclick="window.open('https://github.com/sonddd17/Grammarly')">
+                            GitHub
+                        </button>
+                        <button class="btn btn--color-2 project__btn"
+                        onclick="window.open('https://vimeo.com/918616264?share=copy')">
+                            Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project project--color">
+                    <img src="./assets/images/project-storeal.png" alt="Project 2" class="project__image">
+
+                    <h2 class="project__title">Project Two</h2>
+                    <div class="project__links">
+                        <button class="btn btn--color-2 project__btn"
+                        onclick="window.open('https://github.com/AnVuGia/DatabaseApplication')">
+                            GitHub
+                        </button>
+                        <button class="btn btn--color-2 project__btn"
+                        onclick="window.open('https://vimeo.com/918609910?share=copy')">
+                            Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project project--color">
+                    <img src="./assets/images/project-onyx.png" alt="Project 3" class="project__image">
+
+                    <h2 class="project__title">Project Three</h2>
+                    <div class="project__links">
+                        <button class="btn btn--color-2 project__btn"
+                        onclick="window.open('https://github.com/truongnhatanh7/EEET2580_Onyx_Project')">
+                            GitHub
+                        </button>
+                    </div>
+                </div>
+
+                <img 
+                src="./assets/images/arrow.png" 
+                alt="Down arrow icon" 
+                class="nav-icon"
+                onclick="location.href('#section-contacts')">
             </div>
         </div>
     </div>
