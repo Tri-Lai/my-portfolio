@@ -25,6 +25,10 @@
     margin-bottom: 1rem;
 }
 
+.welcoming-text img {
+    width: 30px;
+}
+
 .author-name {
     font-size: 3.8rem;
     text-align: center;

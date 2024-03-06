@@ -1,0 +1,53 @@
+footer {
+    height: 12vh;
+    margin: 0 10px;
+}
+
+.footer {
+    border-radius: 22px;
+    border: var(--text-color) 1px solid;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: var(--black-color);
+    display: block;
+    padding: 15px 25px;
+    transition: background-color 0.1s;
+}
+
+.footer li:last-child a:hover {
+    background-color: #333;
+    color: white;
+    border-radius: 0px 20px 20px 0;
+}
+
+.footer li:first-child a:hover {
+    background-color: #333;
+    color: white;
+    border-radius: 20px 0 0 20px;
+}
+
+.footer li:nth-child(2) a:hover,
+.footer li:nth-child(3) a:hover {
+    color: white;
+    background-color: #333;
+}
+
+nav {
+    height: 50px;
+    margin: 20px 0;
+}
+
+footer p {
+    font-size: 12px;
+    color: var(--neutral-text-color);
+    text-align: center;
+}
+
+

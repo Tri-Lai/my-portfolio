@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./styles/skills.css">
     <link rel="stylesheet" href="./styles/projects.css">
     <link rel="stylesheet" href="./styles/contacts.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/media-queries.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -21,7 +22,9 @@
         <!-- Desktop Navigation -->
 
         <nav class="desktop-nav">
-            <div class="desktop-nav__logo">John Doe</div>
+            <div class="desktop-nav__logo">
+                <img src="./assets/images/welcome-gif.gif" alt="welcome logo">
+            </div>
     
             <div class="desktop-nav__list-container">
                 <ul class="desktop-nav__list">
@@ -74,7 +77,10 @@
 
             <!-- Bio -->
             <div class="profile__description">
-                <p class="welcoming-text">Hi all, I am</p>
+                <p class="welcoming-text">
+                    <img src="./assets/images/waving-hand.gif" alt="waving hand">
+                    Hi all, I am
+                </p>
                 <h1 class="author-name">Tri Lai</h1>
                 <p class="major">Software Engineer</p>
                 
@@ -147,12 +153,6 @@
                         engineering where I can apply my expertise in developing web applications using various technologies such as
                         Flask, Express framework, or Spring.</p>
                 </div>
-                
-                <img 
-                src="./assets/images/arrow.png" 
-                alt="Down arrow icon" 
-                class="nav-icon"
-                onclick="location.href('#section-skills')">
             </div>
         </div>
         
@@ -327,21 +327,16 @@
 
                     </div> 
                 </div>
-                
-                <img 
-                src="./assets/images/arrow.png" 
-                alt="Down arrow icon" 
-                class="nav-icon"
-                onclick="location.href('#section-projects')">
             </div>
         </div>
 
         <!-- PROJECTS -->
-        <div id="section-projects" class="projects section">
+
+        <div id="section-projects" class="projects projects-web section">
             <!-- Title -->
             <div class="section-header">
                 <p class="section-header__label">Here Are My</p>
-                <h1 class="section-header__title">Projects</h1>
+                <h1 class="section-header__title">Web Projects</h1>
             </div>
 
             <!-- Project container -->
@@ -349,7 +344,7 @@
                 <div class="project project--color">
                     <img src="./assets/images/project-grosana.png" alt="Project 1" class="project__image">
 
-                    <h2 class="project__title">Project One</h2>
+                    <h2 class="project__title">Document Analyzer</h2>
                     <div class="project__links">
                         <button class="btn btn--color-2 project__btn"
                         onclick="window.open('https://github.com/sonddd17/Grammarly')">
@@ -365,7 +360,7 @@
                 <div class="project project--color">
                     <img src="./assets/images/project-storeal.png" alt="Project 2" class="project__image">
 
-                    <h2 class="project__title">Project Two</h2>
+                    <h2 class="project__title">Storeal</h2>
                     <div class="project__links">
                         <button class="btn btn--color-2 project__btn"
                         onclick="window.open('https://github.com/AnVuGia/DatabaseApplication')">
@@ -381,7 +376,7 @@
                 <div class="project project--color">
                     <img src="./assets/images/project-onyx.png" alt="Project 3" class="project__image">
 
-                    <h2 class="project__title">Project Three</h2>
+                    <h2 class="project__title">Onyx Task Management</h2>
                     <div class="project__links">
                         <button class="btn btn--color-2 project__btn"
                         onclick="window.open('https://github.com/truongnhatanh7/EEET2580_Onyx_Project')">
@@ -389,12 +384,66 @@
                         </button>
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <img 
-                src="./assets/images/arrow.png" 
-                alt="Down arrow icon" 
-                class="nav-icon"
-                onclick="location.href('#section-contacts')">
+        <div id="section-projects" class="projects-mobile">
+            <!-- Title -->
+            <div class="section-header">
+                <h1 class="section-header__title">Mobile Projects</h1>
+            </div>
+
+            <!-- Project container -->
+            <div class="project__container">
+                <div class="project project--color">
+                    <img src="./assets/images/project-pawsome.png" alt="Project 1" class="project__image">
+
+                    <h2 class="project__title">PawSome
+                        <img src="./assets/images/android.png" alt="android icon">
+                    </h2>
+                    <div class="project__links">
+                        <button class="btn btn--color-2 project__btn"
+                        onclick="window.open('https://github.com/PawSomeRMIT/PawSome.git')">
+                            GitHub
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project project--color">
+                    <img src="./assets/images/project-muscle_discovery.png" alt="Project 2" class="project__image">
+
+                    <h2 class="project__title">Muscle Discovery
+                        <img src="./assets/images/ios.png" alt="ios icon">
+                    </h2>
+                    <div class="project__links">
+                        <button class="btn btn--color-2 project__btn"
+                        onclick="window.open('https://github.com/ThucT4/MuscleDiscovery')">
+                            GitHub
+                        </button>
+                        <button class="btn btn--color-2 project__btn"
+                        onclick="window.open('https://vimeo.com/918618226?share=copy')">
+                            Demo
+                        </button>
+                    </div>
+                </div>
+
+                <div class="project project--color">
+                    <img src="./assets/images/project-brighter_tomorrow.png" alt="Project 3" class="project__image">
+
+                    <h2 class="project__title">Brighter Tomorrow
+                        <img src="./assets/images/ios.png" alt="ios icon">
+                    </h2>
+                    <div class="project__links">
+                        <button class="btn btn--color-2 project__btn"
+                        onclick="window.open('https://github.com/nhat117/app')">
+                            GitHub
+                        </button>
+                        <button class="btn btn--color-2 project__btn"
+                        onclick="window.open('https://vimeo.com/920108505?share=copy')">
+                            Demo
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -412,21 +461,49 @@
             <div class="contacts__container">
 
                 <div class="contacts__info">
-                    <img src="./assets/images/email.png" alt="school email icon" class="contact-icon">
+                    <img src="./assets/images/graduation-hat.png" alt="school email icon" class="contact-icon">
                     <p><a href="mailto:s3799602@rmit.edu.vn" target="_blank">s3799602@rmit.edu.vn</a></p>
                 </div>
 
                 <div class="contacts__info">
-                    <img src="./assets/images/email.png" alt="work email icon" class="contact-icon">
+                    <img src="./assets/images/suitcase.png" alt="work email icon" class="contact-icon">
                     <p><a href="mailto:tris.lainghiep@gmail.com" target="_blank">tris.lainghiep@gmail.com</a></p>
                 </div>
 
                 <div class="contacts__info">
                     <img src="./assets/images/linkedin.png" alt="linkedin icon" class="contact-icon">
-                    <p><a href="https://www.linkedin.com/in/trilai/" target="_blank">LinkedIn</a></p>
+                    <p><a href="https://www.linkedin.com/in/trilai/" target="_blank">Tri Lai</a></p>
                 </div>
             </div>
         </div>
+
+        <!-- FOOTER -->
+        
+        <footer>
+            <nav>
+                <div class="nav-links__container">
+                    <ul class="footer">
+                        <li class="desktop-nav__item">
+                            <a href="#section-about">About me</a>
+                        </li>
+    
+                        <li class="desktop-nav__item">
+                            <a href="#section-skills">Skills</a>
+                        </li>
+    
+                        <li class="desktop-nav__item">
+                            <a href="#section-projects">Projects</a>
+                        </li>
+    
+                        <li class="desktop-nav__item">
+                            <a href="#section-contacts">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <p>Copyright &#169; 2024 Tri Lai. All rights reserved.</p>
+        </footer>
     </div>
 
     <script src="script.js"></script>
