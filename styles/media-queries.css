@@ -1,9 +1,214 @@
 @media screen and (max-width: 1200px) {
+    .profile {
+        height: 83vh;
+        margin-bottom: 60px;
+    }
+
+    .about__bio-list {
+        flex-wrap: wrap;
+    }
+
+    .hamburger-nav__logo img {
+        width: 70px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .hamburger-nav__logo img {
+        width: 70px;
+        height: 50px;
+    }
+
+    .hamburger-nav-menu {
+        margin-right: 10vw;
+    }
+
     .desktop-nav {
         display: none;
     }
 
     .hamburger-nav {
         display: flex;
+        justify-content: space-between;
+    }
+
+    .skills,
+    .skills__container {
+        margin-top: 20px;
+    }
+
+    .profile,
+    .about__container {
+        display: block;
+    }
+
+    .section,
+    .about__container {
+        height: fit-content;
+    }
+
+    .section {
+        margin: 0 auto;
+    }
+
+    .avatar {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 24px;
+    }
+
+    .about__bio-list {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hamburger-nav__logo img {
+        width: 70px;
+        height: 50px;
+        margin-left: 10vw;
+    }
+
+    .section-header {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .section-header__title {
+        font-size: 3.8rem;
+    }
+
+    .avatar {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    /* Profile section */
+
+    .profile {
+        height: 83vh;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2px;
+    }
+
+    .profile__description {
+        width: 100%;
+    }
+
+    .profile__welcome {
+        padding: 0;
+    }
+
+    .btn__container {
+        margin: 30px 0;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    /* About section */
+    .about {
+        padding: 10px 0;
+    }
+
+    .about__bio-container {
+        margin: 0;
+    }
+
+    .about__image {
+        display: none;
+    }
+
+    .about__bio-list {
+        flex-direction: column;
+    }
+
+    .about__desc {
+        text-align: left;
+        font-size: 1.4rem;
+        line-height: 1.7;
+    }
+
+    /* Skill section */
+
+    .skills__bio-list-title {
+        font-size: 1.7rem;
+    }
+
+    .skills__bio-item {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .skills__bio-item h3 {
+        font-weight: 400;
+    }
+
+    /* Project section */
+
+    .projects-web,
+    .projects-mobile {
+        margin: 100px 0
+    }
+
+    .project__container {
+        flex-direction: column;
+    }
+
+    .project {
+        padding: 10px 15px;
+    }
+
+    .project__image {
+        width: 200px;
+        height: 150px;
+    }
+
+    .project__btn {
+        width: 80px;
+    }
+
+    /* Contacts */
+    .contacts {
+        height: 40vh;
+        margin-top: 20%;
+    }
+
+    .contacts__container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: start;
+        row-gap: 20px;
+        padding: 20px;
+        margin: 0 auto;
+        margin-bottom: 200px;
+    }
+
+    .contacts__info {
+        margin: 0;
+    }
+
+    .contacts__info p,
+    .nav-links li a {
+        font-size: 1.2rem;
+    }
+
+    /* Footer section */
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .nav-links__container {
+        display: none;
     }
 }

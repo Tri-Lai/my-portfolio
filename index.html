@@ -27,7 +27,7 @@
             </div>
     
             <div class="desktop-nav__list-container">
-                <ul class="desktop-nav__list">
+                <ul class="desktop-nav__list nav-links">
                     <li class="desktop-nav__item">
                         <a href="#section-about">About me</a>
                     </li>
@@ -50,7 +50,10 @@
         <!-- Mobile Navigation -->
 
         <nav class="hamburger-nav">
-            <div class="hamburger-nav__logo">John Doe</div>
+            <div class="hamburger-nav__logo">
+                <img src="./assets/images/welcome-gif.gif" alt="welcome logo">
+            </div>
+
             <div class="hamburger-nav-menu">
                 <div class="hamburger-icon" onclick="toggleMenu()">
                     <span></span>
@@ -60,10 +63,10 @@
 
                 <div class="menu-links">
                     <ul>
-                        <li><a href="#about" onclick="toggleMenu()">About me</a></li>
-                        <li><a href="#experiences" onclick="toggleMenu()">Experience</a></li>
-                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                        <li><a href="#contacts" onclick="toggleMenu()">Contacts</a></li>
+                        <li><a href="#section-about" onclick="toggleMenu()">About me</a></li>
+                        <li><a href="#section-skills" onclick="toggleMenu()">Skills</a></li>
+                        <li><a href="#section-projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#section-contacts" onclick="toggleMenu()">Contacts</a></li>
                     </ul>
                 </div>
             </div>
@@ -71,9 +74,9 @@
 
         <!-- PROFILE -->
 
-        <div class="profile">
+        <div class="profile section">
             <!-- Avatar -->
-            <img class="profile__avatar" src="./assets/images/profile-avatar.png" alt="profile avatar">
+            <img class="profile__avatar avatar" src="./assets/images/profile-avatar.png" alt="profile avatar">
 
             <!-- Bio -->
             <div class="profile__description">
@@ -135,20 +138,20 @@
             </div>
 
             <div class="about__container">
-                <img class="about__image" src="./assets/images/profile-avatar.png" alt="About image">
+                <img class="about__image avatar" src="./assets/images/profile-avatar.png" alt="About image">
 
                 <div class="about__bio-container">
                     <div class="about__bio-list">
                         <div class="about__bio-item">
                             <i class="fa-solid fa-graduation-cap bio-icon"></i>
-                            <h3>Current</h3>
-                            <p>School of Science, Engineering and Technology <br> Final year student </p>
+                            <h3>Final year student</h3>
+                            <p>School of Science, Engineering and Technology</p>
                         </div>
 
                         <div class="about__bio-item">
                             <i class="fa-solid fa-building-columns bio-icon"></i>        
-                            <h3>Education</h3>
-                            <p>RMIT University Vietnam <br> Bachelor of Software Engineering (Honours)</p>
+                            <h3>RMIT University Vietnam</h3>
+                            <p>Bachelor of Software Engineering (Honours)</p>
                         </div>
                     </div> 
                     
@@ -437,7 +440,7 @@
                 <div class="project project--color">
                     <img src="./assets/images/project-grosana.png" alt="Project 1" class="project__image">
 
-                    <h2 class="project__title">Document Analyzer</h2>
+                    <h2 class="skills__bio-list-title project__title">Document Analyzer</h2>
                     <div class="project__links">
                         <button class="btn btn--color-2 project__btn"
                         onclick="window.open('https://github.com/sonddd17/Grammarly')">
@@ -453,7 +456,7 @@
                 <div class="project project--color">
                     <img src="./assets/images/project-storeal.png" alt="Project 2" class="project__image">
 
-                    <h2 class="project__title">Storeal</h2>
+                    <h2 class="skills__bio-list-title project__title">Storeal</h2>
                     <div class="project__links">
                         <button class="btn btn--color-2 project__btn"
                         onclick="window.open('https://github.com/AnVuGia/DatabaseApplication')">
@@ -469,7 +472,7 @@
                 <div class="project project--color">
                     <img src="./assets/images/project-onyx.png" alt="Project 3" class="project__image">
 
-                    <h2 class="project__title">Onyx Task Management</h2>
+                    <h2 class="skills__bio-list-title project__title">Onyx Task Management</h2>
                     <div class="project__links">
                         <button class="btn btn--color-2 project__btn"
                         onclick="window.open('https://github.com/truongnhatanh7/EEET2580_Onyx_Project')">
@@ -491,7 +494,7 @@
                 <div class="project project--color">
                     <img src="./assets/images/project-pawsome.png" alt="Project 1" class="project__image">
 
-                    <h2 class="project__title">PawSome
+                    <h2 class="skills__bio-list-title project__title">PawSome
                         <img src="./assets/images/android.png" alt="android icon">
                     </h2>
                     <div class="project__links">
@@ -505,7 +508,7 @@
                 <div class="project project--color">
                     <img src="./assets/images/project-muscle_discovery.png" alt="Project 2" class="project__image">
 
-                    <h2 class="project__title">Muscle Discovery
+                    <h2 class="skills__bio-list-title project__title">Muscle Discovery
                         <img src="./assets/images/ios.png" alt="ios icon">
                     </h2>
                     <div class="project__links">
@@ -523,7 +526,7 @@
                 <div class="project project--color">
                     <img src="./assets/images/project-brighter_tomorrow.png" alt="Project 3" class="project__image">
 
-                    <h2 class="project__title">Brighter Tomorrow
+                    <h2 class="skills__bio-list-title project__title">Brighter Tomorrow
                         <img src="./assets/images/ios.png" alt="ios icon">
                     </h2>
                     <div class="project__links">
@@ -574,7 +577,7 @@
         
         <footer>
             <nav>
-                <div class="nav-links__container">
+                <div class="nav-links__container nav-links">
                     <ul class="footer">
                         <li class="desktop-nav__item">
                             <a href="#section-about">About me</a>
