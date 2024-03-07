@@ -3,6 +3,8 @@
     display: flex;
     justify-content: center;
     height: 80vh;
+    width: 70vw;
+    margin: 0 auto;
     gap: 5rem;
 }
 
@@ -16,23 +18,29 @@
 .profile__description {
     align-self: center;
     text-align: center;
+    width: 50%;
 }
 
 .welcoming-text {
     color: var(--neutral-text-color);
-    text-align: center;
+    text-align: start;
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin: 12px 0;
 }
 
-.welcoming-text img {
-    width: 30px;
+.profile__welcome {
+    padding: 0 30px;
+}
+
+.profile__welcome img {
+    width: 40px;
 }
 
 .author-name {
     font-size: 3.8rem;
-    text-align: center;
+    text-align: start;
     color: var(-black-color);
+    margin: 12px 0;
 }
 
 .major {
